@@ -141,3 +141,30 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Capacitor / Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# APK / AAB
+*.apk
+*.aab
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Backup files
+index-backup-*.html
+index-before-mobile.html
